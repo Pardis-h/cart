@@ -1,0 +1,45 @@
+.mainContainer{
+    max-width: 100%;
+    position: fixed;
+    width: 100%;
+    padding: 12px 30px;
+    margin-top: -150px;
+    background-color: #fff;
+    box-shadow: 1px -2px 5px 0 #00000036;
+    z-index: 20;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.productLink{
+    color: #1b73e8;
+    font-weight: 700;
+}
+.iconContainer{
+    position: relative;
+}
+.iconContainer span{
+    position: absolute;
+    background-color: #1b73e8;
+    color: #fff;
+    font-weight: 500;
+    padding: 2px 5px;
+    border-radius: 50%;
+    top: -5px;
+    right: -5px;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    font-size: 12px;
+}
+.iconContainer img{
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}

@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 28px;
+    margin-top: 150px;
+    max-width: 1520px;
+    padding: 0 50px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 70vh;
+}

@@ -1,0 +1,69 @@
+.container{
+    margin-top: 100px;
+    display: flex;
+    gap: 28px;
+    margin-top: 150px;
+    max-width: 1520px;
+    padding: 0 50px;
+    min-height: 70vh;
+}
+.cartContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-basis: 70%;
+    width: 70%;
+}
+.paymentDetails{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    flex-basis: 30%;
+    width: 30%;
+    height: fit-content;
+    box-shadow: 0px 3px 8px 0 #0000000f;
+}
+.checkout h3{
+    color: green;
+    margin-bottom: 30px;
+}
+.checkout a{
+    font-weight: 600;
+    color: #1b73e8;
+}
+.checkout a:hover{
+    color: #1762c4;
+}
+.paymentDetails span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #1b73e8;
+}
+.paymentDetails p{
+    margin-bottom: 12px;
+    color: black;
+    /* font-weight: 500; */
+}
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.btnContainer .checkoutBtn{
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: green;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btnContainer .clearBtn{
+    background-color: transparent;
+    border: none;
+    color: green;
+    font-size: 16px;
+    cursor: pointer;
+}

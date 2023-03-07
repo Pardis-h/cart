@@ -1,0 +1,117 @@
+.container{
+    margin-top: 100px;
+    display: flex;
+    margin-top: 150px;
+    max-width: 1200px;
+    padding: 70px 50px 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px 0 #0000000f;
+    position: relative;
+}
+.backLink{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #1b73e8;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.container img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    margin-right: 30px;
+}
+.detailsContainer{
+    border: 1px solid #0000000f;
+    padding: 12px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.detailsContainer h2{
+    color: #1b73e8;
+    margin-bottom: 24px;
+}
+.detailsContainer .desc{
+    font-size: 18px;
+    color: #717171;
+}
+.detailsContainer .cat {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.detailsContainer .cat span{
+    margin-right: 4px;
+    color: gold;
+}
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.btnContainer .price{
+    background-color: green;
+    color: #fff;
+    padding: 8px 12px ;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.btnContainer a{
+    color: #1b73e8;
+    transition: all .3s linear;
+}
+.btnContainer button{
+    background-color: #1b73e8;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.btnContainer button:hover {
+    background-color: #1762c4;
+}
+.btnContainer a:hover{
+    color: #1762c4;
+    font-weight: 500;
+}
+.btnContainer .btns span{
+    padding: 8px;
+}
+.btnContainer .trashBtn{
+    padding: 7px 9px;
+}
+.btnContainer .trashBtn img{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+.btnContainer .minusBtn,.btnContainer .plusBtn{
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px 14px;
+    height: 100%;
+}
+.btnContainer .minusBtn{
+    padding: 8px 16px;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
